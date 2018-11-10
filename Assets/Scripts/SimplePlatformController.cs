@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SimplePlatformController : MonoBehaviour {
-    
+public class SimplePlatformController : MonoBehaviour
+{
 
     [SerializeField] private float moveForce = 365f;
     [SerializeField] private float maxSpeed = 5f;
