@@ -11,7 +11,7 @@ public class SimplePlatformController : MonoBehaviour
     [SerializeField] private Transform groundCheck;
 
     private bool isFacingRight = true;
-    private bool isJump = true;
+    private bool isJump = false;
 
 
     private bool isGrounded = false;
